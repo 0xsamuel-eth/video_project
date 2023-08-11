@@ -1,2 +1,3 @@
-# video_project
+# Video Project
+
 A video project
