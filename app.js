@@ -8,7 +8,7 @@ const video = document.querySelector(".video-container");
 btn.addEventListener("click", function() {
     if(!btn.classList.contains("slide")) {
         btn.classList.add("slide");
-        video.compareDocumentPosition();
+        video.pause();
     }
     else {
         btn.classList.remove("slide");
